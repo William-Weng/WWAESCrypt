@@ -1,0 +1,23 @@
+{
+  "pins" : [
+    {
+      "identity" : "wwaescrypt",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/William-Weng/WWAESCrypt",
+      "state" : {
+        "branch" : "main",
+        "revision" : "41e23dc203ccfe04c60c5e4e9b06fff3e88c0438"
+      }
+    },
+    {
+      "identity" : "wwprint",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/William-Weng/WWPrint",
+      "state" : {
+        "revision" : "0acf1057863faea81c3ded2057c21b09c3435435",
+        "version" : "1.3.0"
+      }
+    }
+  ],
+  "version" : 2
+}
