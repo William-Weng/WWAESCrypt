@@ -15,7 +15,7 @@
 		3DBCD88026F198F300522E3B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DBCD87E26F198F300522E3B /* LaunchScreen.storyboard */; };
 		640CB2A42B5CCB4E00CD5916 /* WWAESCrypt in Frameworks */ = {isa = PBXBuildFile; productRef = 640CB2A32B5CCB4E00CD5916 /* WWAESCrypt */; };
 		646C13A82B5F1FCD00772A0F /* WWAESCrypt in Frameworks */ = {isa = PBXBuildFile; productRef = 646C13A72B5F1FCD00772A0F /* WWAESCrypt */; };
-		646C13AB2B5F218B00772A0F /* WWAESCrypt in Frameworks */ = {isa = PBXBuildFile; productRef = 646C13AA2B5F218B00772A0F /* WWAESCrypt */; };
+		813DF1792B5FC321008FE8AA /* WWAESCrypt in Frameworks */ = {isa = PBXBuildFile; productRef = 813DF1782B5FC321008FE8AA /* WWAESCrypt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,7 +36,7 @@
 				3DAC9C1927016E78006663C2 /* WWPrint in Frameworks */,
 				646C13A82B5F1FCD00772A0F /* WWAESCrypt in Frameworks */,
 				640CB2A42B5CCB4E00CD5916 /* WWAESCrypt in Frameworks */,
-				646C13AB2B5F218B00772A0F /* WWAESCrypt in Frameworks */,
+				813DF1792B5FC321008FE8AA /* WWAESCrypt in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -64,7 +64,6 @@
 			children = (
 				3DBCD88A26F1995100522E3B /* Setting */,
 				3DBCD88926F1994500522E3B /* Material */,
-				8130038E27D5D17800436128 /* Utility */,
 				3DBCD88826F1993200522E3B /* Storyboard */,
 				3DBCD88726F1992200522E3B /* ViewController */,
 				3DBCD87326F198EF00522E3B /* AppDelegate.swift */,
@@ -105,13 +104,6 @@
 			name = Setting;
 			sourceTree = "<group>";
 		};
-		8130038E27D5D17800436128 /* Utility */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Utility;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,7 +124,7 @@
 				3DAC9C1827016E78006663C2 /* WWPrint */,
 				640CB2A32B5CCB4E00CD5916 /* WWAESCrypt */,
 				646C13A72B5F1FCD00772A0F /* WWAESCrypt */,
-				646C13AA2B5F218B00772A0F /* WWAESCrypt */,
+				813DF1782B5FC321008FE8AA /* WWAESCrypt */,
 			);
 			productName = Example;
 			productReference = 3DBCD87026F198EF00522E3B /* Example.app */;
@@ -164,7 +156,7 @@
 			mainGroup = 3DBCD86726F198EF00522E3B;
 			packageReferences = (
 				3DAC9C1727016E78006663C2 /* XCRemoteSwiftPackageReference "WWPrint" */,
-				646C13A92B5F218B00772A0F /* XCRemoteSwiftPackageReference "WWAESCrypt" */,
+				813DF1772B5FC321008FE8AA /* XCRemoteSwiftPackageReference "WWAESCrypt" */,
 			);
 			productRefGroup = 3DBCD87126F198EF00522E3B /* Products */;
 			projectDirPath = "";
@@ -414,12 +406,12 @@
 				minimumVersion = 1.3.0;
 			};
 		};
-		646C13A92B5F218B00772A0F /* XCRemoteSwiftPackageReference "WWAESCrypt" */ = {
+		813DF1772B5FC321008FE8AA /* XCRemoteSwiftPackageReference "WWAESCrypt" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/William-Weng/WWAESCrypt";
 			requirement = {
-				branch = main;
-				kind = branch;
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
@@ -438,9 +430,9 @@
 			isa = XCSwiftPackageProductDependency;
 			productName = WWAESCrypt;
 		};
-		646C13AA2B5F218B00772A0F /* WWAESCrypt */ = {
+		813DF1782B5FC321008FE8AA /* WWAESCrypt */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 646C13A92B5F218B00772A0F /* XCRemoteSwiftPackageReference "WWAESCrypt" */;
+			package = 813DF1772B5FC321008FE8AA /* XCRemoteSwiftPackageReference "WWAESCrypt" */;
 			productName = WWAESCrypt;
 		};
 /* End XCSwiftPackageProductDependency section */

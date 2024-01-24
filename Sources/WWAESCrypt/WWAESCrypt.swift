@@ -16,8 +16,8 @@ public struct WWAESCrypt {
     private var string: String?
     
     public var wrappedValue: String? {
-        get { return Self.encoding(string, forKey: key, using: encoding) }
-        set { string = newValue }
+        get { return string }
+        set { string = Self.encoding(newValue, forKey: key, using: encoding) }
     }
     
     /// [初始化](https://youtu.be/vVbLSba6vOI)

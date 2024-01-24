@@ -5,8 +5,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/William-Weng/WWAESCrypt",
       "state" : {
-        "branch" : "main",
-        "revision" : "41e23dc203ccfe04c60c5e4e9b06fff3e88c0438"
+        "revision" : "a8c320aee42ecc3747c4d8cecec76b96c8c8437b",
+        "version" : "1.0.0"
       }
     },
     {
