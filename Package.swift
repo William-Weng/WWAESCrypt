@@ -12,7 +12,7 @@ let package = Package(
         .library(name: "WWAESCrypt", targets: ["WWAESCrypt"]),
     ],
     targets: [
-        .target(name: "WWAESCrypt"),
+        .target(name: "WWAESCrypt", resources: [.copy("Privacy")]),
     ],
     swiftLanguageVersions: [
         .v5
